@@ -4,7 +4,7 @@ variable "bucket_name" {
   default = ""
 }
 
-# Create a S3 bucket
+# Create an S3 bucket
 resource "aws_s3_bucket" "b" {
   bucket = var.bucket_name
 }
